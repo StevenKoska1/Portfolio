@@ -1,0 +1,92 @@
+:root{
+    --background-color: #23374d;
+    font-family: 'Grenze', serif;
+}
+.top-container{
+    
+    color: #eeeeee;
+    background-color: var(--background-color);
+    height: 600px;
+    position: relative;
+    
+}
+
+
+
+.cloud-wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.mountain{
+    position: absolute;
+    top: 40%
+}
+.cloud1{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.cloud2{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+}
+.cloud3{
+    position: absolute;
+    top: 30%;
+}
+h1{
+    position: absolute;
+    left: 45%;
+    font-size: 40px;
+}
+.p1{
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    font-size: 20px;
+}
+.p2{
+    font-size: 20px;
+}
+
+.p3{
+    font-size: 20px;
+}
+span{
+    text-decoration: underline;
+}
+
+.middle-container {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile img{
+    width: 150px;
+    padding: 2rem 0;
+}
+.profile{
+    padding-bottom: 3rem;
+}
+.skills{
+    
+}
+.skills h2 {
+    margin: 0;
+    font-size: 3rem;
+}
+.skills-image1{
+    width: 150px;
+    float: left;
+    margin-right: 3rem;
+}
+.skills h3{
+    font-size: 3rem;
+}
+.skills-row{
+    margin-bottom: 2rem;
+    text-align: left;
+}
