@@ -26,6 +26,9 @@
     position: absolute;
     top: 40%;
     left: 50%;
+    animation-duration: 4s;
+    animation-name: cloud1-animation;
+    animation-iteration-count: infinite;
 }
 .cloud2{
     position: absolute;
@@ -71,9 +74,6 @@ span{
 .profile{
     padding-bottom: 3rem;
 }
-.skills{
-    
-}
 .skills h2 {
     margin: 0;
     font-size: 3rem;
@@ -90,3 +90,59 @@ span{
     margin-bottom: 2rem;
     text-align: left;
 }
+
+@keyframes cloud1-animation {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes cloud2-animation {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  @keyframes cloud3-animation {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  .btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #3498db;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    text-decoration: none;
+  }
+
+  .footer-link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+  }
+  .bottom-container{
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 2rem;
+  }
+  .contact-me{
+      margin-bottom: 2rem;
+  }
